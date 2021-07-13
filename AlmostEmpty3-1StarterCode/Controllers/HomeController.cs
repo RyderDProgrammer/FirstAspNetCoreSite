@@ -20,5 +20,11 @@ namespace AlmostEmpty3_1StarterCode.Controllers
             ViewBag.Title = "About";
             return View();
         }
+
+        public IActionResult PrivacyPolicy()
+        {
+            ViewBag.Title = "PrivacyPolicy";
+            return View();
+        }
     }
 }
